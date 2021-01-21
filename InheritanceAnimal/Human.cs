@@ -18,28 +18,28 @@ namespace InheritanceAnimal
         }
         public override string Talking(string sentence)
         {
-            switch ()
+            switch (sentence)
             {
                 case "Hello":
-                    break;
+                    return "Hi!";
                 case "Good Morning?":
-                    break;
+                    return "Mornin'";
                 case "How are you?":
-                    break;
+                    return "I'm good, how about you?";
                 case "I'm hungry, have food?":
-                    break;
+                    return "Not really, no..";
                 case "Boo!":
-                    break;
+                    return "Yikes!!!";
                 case "Tell me something interesting pls?":
-                    break;
+                    return "A circle is round!";
                 case "If you add 10 + 12, how many fishes do you get?":
-                    break;
+                    return "22?";
                 case "What color is your hair?":
-                    break;
+                    return "I don't know, you tell me!";
                 case "What time is it?":
-                    break;
+                    return "break-time!";
                 case "Allright, allright, allright...":
-                    break;
+                    return "Yeah, baby!";
                 default:
                     break;
             }

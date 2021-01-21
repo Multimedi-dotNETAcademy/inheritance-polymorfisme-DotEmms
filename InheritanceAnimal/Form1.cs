@@ -47,12 +47,12 @@ namespace InheritanceAnimal
 
         private void btnPet_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(animal.Petting());
+            MessageBox.Show(animal.Petting(),"Petting time!", MessageBoxButtons.OK);
         }
 
         private void btnFeed_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(animal.Eating());
+            MessageBox.Show(animal.Eating(),"Feeding time!",MessageBoxButtons.OK);
         }
 
         private void btnClose_Click(object sender, EventArgs e)
@@ -62,7 +62,7 @@ namespace InheritanceAnimal
 
         private void btnSpeak_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(animal.Talking(listBox1.SelectedItem.ToString()));
+            MessageBox.Show(animal.Talking(listBox1.SelectedItem.ToString()),"Speech", MessageBoxButtons.OK);
         }
     }
 }
