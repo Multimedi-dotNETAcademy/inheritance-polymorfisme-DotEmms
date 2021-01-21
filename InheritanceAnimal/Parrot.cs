@@ -15,11 +15,16 @@ namespace InheritanceAnimal
         }
         public override string Talking(string sentence)
         {
-            if (true)
+            Random rnd = new Random();
+            int rndSentence = rnd.Next(1, 5);
+            if (rndSentence == 1)
             {
-
+                return "Koko scratch head!";
             }
-            return base.Talking(sentence);
+            else
+            {
+                return "Koko";
+            }
         }
         public override string Petting()
         {
