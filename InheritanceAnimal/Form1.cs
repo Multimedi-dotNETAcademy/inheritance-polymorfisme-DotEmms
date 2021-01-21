@@ -62,7 +62,7 @@ namespace InheritanceAnimal
 
         private void btnSpeak_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(animal.Talking());
+            MessageBox.Show(animal.Talking(listBox1.SelectedItem.ToString()));
         }
     }
 }

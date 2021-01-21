@@ -23,7 +23,7 @@ namespace InheritanceAnimal
         }
         public override string Petting()
         {
-            return base.Petting();
+            return "Argh, thanks matey";
         }
     }
 }
