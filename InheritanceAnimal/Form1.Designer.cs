@@ -116,6 +116,7 @@ namespace InheritanceAnimal
             this.btnPet.TabIndex = 4;
             this.btnPet.Text = "Pet";
             this.btnPet.UseVisualStyleBackColor = true;
+            this.btnPet.Click += new System.EventHandler(this.btnPet_Click);
             // 
             // btnFeed
             // 
@@ -125,6 +126,7 @@ namespace InheritanceAnimal
             this.btnFeed.TabIndex = 5;
             this.btnFeed.Text = "Feed";
             this.btnFeed.UseVisualStyleBackColor = true;
+            this.btnFeed.Click += new System.EventHandler(this.btnFeed_Click);
             // 
             // btnClose
             // 
@@ -134,6 +136,7 @@ namespace InheritanceAnimal
             this.btnClose.TabIndex = 6;
             this.btnClose.Text = "Close";
             this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // btnCreate
             // 
@@ -143,6 +146,7 @@ namespace InheritanceAnimal
             this.btnCreate.TabIndex = 7;
             this.btnCreate.Text = "Create";
             this.btnCreate.UseVisualStyleBackColor = true;
+            this.btnCreate.Click += new System.EventHandler(this.btnCreate_Click);
             // 
             // btnSpeak
             // 
@@ -152,6 +156,7 @@ namespace InheritanceAnimal
             this.btnSpeak.TabIndex = 8;
             this.btnSpeak.Text = "Speak now or forever hold your breath:";
             this.btnSpeak.UseVisualStyleBackColor = true;
+            this.btnSpeak.Click += new System.EventHandler(this.btnSpeak_Click);
             // 
             // listBox1
             // 

@@ -18,6 +18,10 @@ namespace InheritanceAnimal
         }
         public override string Talking(string sentence)
         {
+            switch (switch_on)
+            {
+                default:
+            }
             return base.Talking(sentence);
         }
         public override string Petting()

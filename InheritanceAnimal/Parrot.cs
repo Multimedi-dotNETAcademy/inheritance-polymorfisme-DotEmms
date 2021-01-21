@@ -15,6 +15,10 @@ namespace InheritanceAnimal
         }
         public override string Talking(string sentence)
         {
+            if (true)
+            {
+
+            }
             return base.Talking(sentence);
         }
         public override string Petting()

@@ -8,6 +8,7 @@ namespace InheritanceAnimal
 {
     class Cat : Animal
     {
+        int counter;
         public Cat(string name)
             :base(name)
         {
@@ -15,11 +16,16 @@ namespace InheritanceAnimal
         }
         public override string Talking(string sentence)
         {
+            counter++;
+            if (counter % 3 == 0)
+            {
+                return "Miauw!";
+            }
             return base.Talking(sentence);
         }
         public override string Petting()
         {
-            return base.Petting();
+            return "Purrrrr";
         }
     }
 }
